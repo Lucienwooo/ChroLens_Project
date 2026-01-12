@@ -267,10 +267,10 @@ export default function TutorialPage() {
       </div>
 
       <nav className={styles.nav}>
-        <a href="/">← 返回首頁</a>
-        <a href="/tutorial/basic">基礎教學</a>
-        <a href="/tutorial/advanced">進階教學</a>
-        <a href="/tutorial/examples">範例腳本</a>
+        <a href="/mimic">← 返回首頁</a>
+        <a href="/mimic/tutorial/basic">基礎教學</a>
+        <a href="/mimic/tutorial/advanced">進階教學</a>
+        <a href="/mimic/tutorial/examples">範例腳本</a>
       </nav>
 
       <section className={styles.tutorialList}>
@@ -291,11 +291,11 @@ export default function TutorialPage() {
       <section className={styles.nextSteps}>
         <h2>🚀 下一步</h2>
         <div className={styles.nextGrid}>
-          <a href="/tutorial/advanced" className={styles.nextCard}>
+          <a href="/mimic/tutorial/advanced" className={styles.nextCard}>
             <h3>進階功能</h3>
             <p>圖片辨識、OCR、條件判斷</p>
           </a>
-          <a href="/tutorial/examples" className={styles.nextCard}>
+          <a href="/mimic/tutorial/examples" className={styles.nextCard}>
             <h3>範例腳本</h3>
             <p>實用的自動化腳本範例</p>
           </a>

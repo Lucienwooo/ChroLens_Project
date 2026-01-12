@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import ProductCard from '@/components/ProductCard';
 import styles from './page.module.css';
 
@@ -76,9 +77,9 @@ export default function Home() {
                 <h2>開始使用 ChroLens</h2>
                 <p>選擇適合您的工具,立即開始自動化之旅</p>
                 <div className={styles.ctaButtons}>
-                    <a href="/mimic" className={styles.primaryButton}>
+                    <Link href="/mimic" className={styles.primaryButton}>
                         探索 Mimic
-                    </a>
+                    </Link>
                     <a
                         href="https://github.com/LucienWooo/ChroLens_Mimic"
                         target="_blank"

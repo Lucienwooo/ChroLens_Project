@@ -180,7 +180,7 @@ export default function Home() {
           </a>
         </p>
         <p>
-          <a href="/tutorial">
+          <a href="/mimic/tutorial">
             📚 使用教學 - 從零開始學習 ChroLens Mimic
           </a>
         </p>
