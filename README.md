@@ -134,7 +134,28 @@ ChroLens_Project/
 
 ## 📜 授權
 
-本專案採用 MIT License 授權 - 詳見 [LICENSE](LICENSE) 檔案
+本專案採用**雙授權模式** (Dual Licensing):
+
+### 1️⃣ GNU AGPL-3.0 (開源授權)
+✅ **免費**用於個人使用和開源專案  
+⚠️ 必須開源所有修改和衍生作品  
+⚠️ 網路服務也必須提供原始碼
+
+### 2️⃣ 商業授權 (Commercial License)
+✅ 可用於**閉源/專有軟體**  
+✅ **無需開源**修改內容  
+✅ 包含優先支援  
+💰 **聯絡我們**取得授權
+
+### 📧 商業授權諮詢
+- **Email**: lucienwooo@gmail.com
+- **Discord**: [ChroLens 社群](https://discord.gg/72Kbs4WPPn)
+- **GitHub**: [@LucienWooo](https://github.com/LucienWooo)
+
+> [!NOTE]
+> 如果您不確定哪種授權適用於您的使用情況,請隨時聯絡我們!
+
+詳見 [LICENSE](LICENSE) 檔案
 
 ---
 

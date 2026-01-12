@@ -629,8 +629,8 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
+    ChroLens Project - Automation tools landing page
+    Copyright (C) 2026  LucienWooo
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published
@@ -659,3 +659,46 @@ specific requirements.
 if any, to sign a "copyright disclaimer" for the program, if necessary.
 For more information on this, and how to apply and follow the GNU AGPL, see
 <https://www.gnu.org/licenses/>.
+
+================================================================================
+
+COMMERCIAL LICENSE OPTION
+
+This software is also available under a commercial license for organizations
+that wish to use it in proprietary applications or services without the
+obligations of the AGPL-3.0 license.
+
+For commercial licensing inquiries, please contact:
+- Email: lucienwooo@gmail.com
+- Discord: https://discord.gg/72Kbs4WPPn
+- GitHub: https://github.com/LucienWooo
+
+Commercial License Benefits:
+✅ Use in closed-source/proprietary software
+✅ No requirement to open-source your modifications
+✅ No requirement to provide source code to network service users
+✅ Priority support and updates
+✅ Custom licensing terms available
+💰 Contact for pricing
+
+================================================================================
+
+DUAL LICENSING SUMMARY
+
+This project is dual-licensed under:
+
+1. GNU AGPL-3.0 (Free for open-source projects)
+   ✅ Free for personal use
+   ✅ Free for open-source projects
+   ⚠️ Must open-source all modifications
+   ⚠️ Must open-source if used in network services
+   ⚠️ Must provide source code to all users
+
+2. Commercial License (Paid for commercial use)
+   ✅ Use in proprietary/closed-source software
+   ✅ No obligation to open-source modifications
+   ✅ No obligation to provide source to users
+   ✅ Includes priority support
+   💰 Contact for pricing
+
+If you are unsure which license applies to your use case, please contact us.
