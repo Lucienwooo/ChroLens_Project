@@ -25,13 +25,13 @@ export default function Changelog() {
     const renderChangeLine = (change: string) => {
         // 空行
         if (change.trim() === '') {
-            return <li key={Math.random()} style={{ height: '8px' }}></li>;
+            return <li key={`empty-${Math.abs(change.length)}`} style={{ height: '8px' }}></li>;
         }
 
         // 指令語法（以 > 開頭）
         if (change.trim().startsWith('>')) {
             return (
-                <li key={Math.random()} style={{ marginLeft: '20px' }}>
+                <li key={`code-${change.substring(0, 10)}`} style={{ marginLeft: '20px' }}>
                     <pre className={changelogStyles.codeBlock}>
                         <code>{change}</code>
                     </pre>
@@ -45,7 +45,7 @@ export default function Changelog() {
             const title = parts[0];
             const description = parts.slice(1).join('__');
             return (
-                <li key={Math.random()} style={{ listStyle: 'disc', marginLeft: '20px' }}>
+                <li key={`feat-${title}`} style={{ listStyle: 'disc', marginLeft: '20px' }}>
                     {title}__{description}
                 </li>
             );
@@ -56,12 +56,12 @@ export default function Changelog() {
 
         if (isTitle) {
             return (
-                <li key={Math.random()} style={{ listStyle: 'disc', marginLeft: '20px' }}>
+                <li key={`title-${change.substring(0, 10)}`} style={{ listStyle: 'disc', marginLeft: '20px' }}>
                     {change}
                 </li>
             );
         } else {
-            return <li key={Math.random()}>{change}</li>;
+            return <li key={`text-${change.substring(0, 10)}`}>{change}</li>;
         }
     };
 

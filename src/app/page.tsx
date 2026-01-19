@@ -167,7 +167,7 @@ export default function Home() {
                 </p>
                 <div className={styles.stats}>
                     <div className={styles.stat}>
-                        <div className={styles.statNumber}>11</div>
+                        <div className={styles.statNumber}>10</div>
                         <div className={styles.statLabel}>個專案</div>
                     </div>
                     <div className={styles.stat}>
@@ -242,10 +242,6 @@ export default function Home() {
                 </div>
             </section>
 
-            <footer className={styles.footer}>
-                <p>Made with ❤️ by <a href="https://github.com/Lucienwooo" target="_blank" rel="noopener noreferrer">Lucienwooo</a></p>
-                <p>© 2025 ChroLens Project. Licensed under GPL v3.</p>
-            </footer>
         </div>
     );
 }
