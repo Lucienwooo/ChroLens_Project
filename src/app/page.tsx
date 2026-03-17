@@ -18,7 +18,7 @@ export default function Home() {
                 '繁體中文在地化',
             ],
             status: 'released' as const,
-            link: '/mimic',
+            link: 'https://lucienwooo.github.io/ChroLens-Mimic/',
             githubLink: 'https://github.com/Lucienwooo/ChroLens-Mimic',
             icon: '🎬',
         },

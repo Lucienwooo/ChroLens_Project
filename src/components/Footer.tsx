@@ -1,4 +1,5 @@
 import styles from './Footer.module.css';
+import AnimatedGradientText from './AnimatedGradientText';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -25,7 +26,11 @@ export default function Footer() {
                     <ul>
                         <li><a href="https://github.com/LucienWooo" target="_blank" rel="noopener noreferrer">GitHub</a></li>
                         <li><a href="https://discord.gg/72Kbs4WPPn" target="_blank" rel="noopener noreferrer">Discord</a></li>
-                        <li><a href="https://ko-fi.com/B0B51FBVA8" target="_blank" rel="noopener noreferrer">Support</a></li>
+                        <li>
+                            <a href="https://ko-fi.com/B0B51FBVA8" target="_blank" rel="noopener noreferrer">
+                                <AnimatedGradientText>☕ 贊助與支持 ChroLens</AnimatedGradientText>
+                            </a>
+                        </li>
                     </ul>
                 </div>
 
